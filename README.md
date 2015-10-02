@@ -24,7 +24,21 @@ $ cd firefly
 ```
 =======
 
-more instructions here
+Install dependencies:
+```
+$ sudo npm install
+```
+
+If not already running, run redis server in another tab or window:
+```
+$ redis-server
+```
+
+Compile and run firefly:
+```
+$ coffee -c .
+$ node app
+```
 
 ## Technologies Used
 * Node
@@ -33,7 +47,9 @@ more instructions here
 * Mongoose
 * Redis
 * Phaser
-* Socket
+* Socket.IO
+* LESS
+* Jade
 
 
 ### Legal
