@@ -37,10 +37,10 @@ app.set 'view engine', 'jade'
 # app.use express.favicon, __dirname + '/public/favicon.ico'
 
 if env is 'development'
-	app.use logger path: path.join(__dirname, 'dev.log')
+	app.use logger path: path.join(__dirname, 'logs/dev.log')
 
 if env is 'production'
-	app.use logger path: path.join(__dirname, 'production.log')
+	app.use logger path: path.join(__dirname, 'logs/production.log')
 
 app.use bodyParser.json()
 app.use cookieParser 'FIREFLYGOOOOO@#$$@!!!WEEEEMORGAN'

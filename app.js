@@ -61,13 +61,13 @@
 
   if (env === 'development') {
     app.use(logger({
-      path: path.join(__dirname, 'dev.log')
+      path: path.join(__dirname, 'logs/dev.log')
     }));
   }
 
   if (env === 'production') {
     app.use(logger({
-      path: path.join(__dirname, 'production.log')
+      path: path.join(__dirname, 'logs/production.log')
     }));
   }
 
