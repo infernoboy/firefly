@@ -2,3 +2,4 @@ node_modules/
 logs/
 *.js
 *.css
+!public/js/external/
