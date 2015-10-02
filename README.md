@@ -22,7 +22,6 @@ $ cd ~/Desktop
 $ git clone https://github.com/infernoboy/firefly.git
 $ cd firefly
 ```
-=======
 
 Install dependencies:
 ```
@@ -36,8 +35,12 @@ $ redis-server
 
 Compile and run firefly:
 ```
-$ coffee -c .
-$ node app
+$ ./run.sh
+```
+
+**If you see a permission denied error, try this before running:**
+```
+$ chmod a+x run.sh
 ```
 
 ## Technologies Used
