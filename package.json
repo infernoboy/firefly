@@ -8,6 +8,10 @@
 	"dependencies": {
 		"express": "*",
 		"express-session": "*",
+		"express-logger": "*",
+		"body-parser": "*",
+		"cookie-parser": "*",
+		"errorhandler": "*",
 		"jade": "*",
 		"less": "*",
 		"less-middleware": "*",
@@ -16,6 +20,7 @@
 		"socket.io-redis": "*",
 		"socket.io-handshake": "*",
 		"cookie": "*",
+		"connect-redis": "*",
 		"redis": "*"
 	}
 }
